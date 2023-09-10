@@ -8,7 +8,7 @@ const ProjectCardData=[
         imgsrc:Drumkit,// after importing put the like this to get the images 
         title:"Drum Kit.",
         text:"It is a simple and usable drum kit made with the help of simple HTML,CSS and Javascript",
-        view:"https://portfolio-4kbfsqzqf-pinakmoharir.vercel.app/project",
+        view:"https://drumkit-eight-psi.vercel.app/",
         source:"https://github.com/pinakmoharir/Drums.git "
     },
     //just by pasting and entering the info we can create differnt cards for projects
