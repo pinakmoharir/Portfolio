@@ -25,20 +25,20 @@ const changeColor = () => {
     <div className={color?"header header-bg":
     "header"}>
         <Link to="/">
-            <h1>Portfolio</h1>
+            <h1 className="gradient">Portfolio</h1>
         </Link>
         <ul className={click ? "nav-menu active":"nav-menu"}>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/" >Home</Link>
             </li>
             <li>
-                <Link to="/project">Project</Link>
+                <Link to="/project" >Project</Link>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" >About</Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" >Contact</Link>
             </li>
 
         </ul>
