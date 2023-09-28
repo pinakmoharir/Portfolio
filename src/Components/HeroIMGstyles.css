@@ -39,7 +39,20 @@
 .hero .content h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
+    
 }
+
+.gradient{
+color: transparent;
+/* background: rgb(1, 104, 97);
+background: linear-gradient(90deg, rgba(0,74,69,1) 0%, rgba(0,169,186,1) 48%, rgba(0,249,255,1) 100%); */
+background-color: #05e8ba;
+background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+
 
 
 .hero .content p{
