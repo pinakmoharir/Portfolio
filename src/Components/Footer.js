@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footerstyle.css";
 
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaHome, FaPhone, FaMailBulk, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,18 +30,26 @@ const Footer = () => {
             </div>
            
             <div className='right'>
-                <h4>About the company</h4>
-                <p> This is Pinak Pankaj Moharir CEO & Founder Of Ace Games<br></br>
-                I Hope you like the page ,projects and their design.</p><br></br>
+                <h4>About Me</h4>
+                <p> This is Pinak Pankaj Moharir a B-tech artificial intellegence student <br></br>
+                I am a software development enthusiast who is ready to learn new technologies.</p><br></br>
             <div className='social'>
-                <FaFacebook size={30} style={
+                <a href='https://github.com/pinakmoharir'>
+                <FaGithub size={30} style={
                     {color:"#fff", marginRight:"1rem"}} />
+                </a>
+                <a href='https://www.instagram.com/its_pinak_btw/'>
                 <FaInstagram size={30} style={
                     {color:"#fff", marginRight:"1rem"}} />
+                </a>
+                {/* <a href=''>
                 <FaTwitter size={30} style={
                     {color:"#fff", marginRight:"1rem"}} />
+                </a> */}
+                <a href='www.linkedin.com/in/pinak-moharir-625917227'>
                 <FaLinkedin size={30} style={
                     {color:"#fff", marginRight:"1rem"}} />
+                </a>
             </div>
             </div>
         </div>
