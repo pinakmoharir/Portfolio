@@ -13,9 +13,10 @@ const HeroIMG = () => {
         <p>Hi,I'm Pinak Moharir</p>
         <h1>
           
-          <div className="gradient">Web</div>Developer
+          <div className="gradient">Software</div> Developer
+        
         </h1>
-        <div>
+      <div>
           <Link to="/project" className="btn">
             Projects
           </Link>
