@@ -4,6 +4,7 @@ import React from "react";
 import React1 from "../Assets/Reactjs.jpg";
 import React2 from "../Assets/reactjs2.jpg";
 
+
 const handleDownload = () => {
   const link = document.createElement("a");
   link.href = "Pinak-Pankaj-Moharir-Resume-2024.pdf";
